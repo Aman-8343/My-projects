@@ -29,9 +29,10 @@ msgContainer.classList.add("hide");
 
 boxes.forEach((box)=>{
     box.addEventListener("click",() => {
-        console.log("Box was clicked");
+       
       if(turn0){
         box.innerHTML="0";
+             box.style.color="blue";
         turn0=false;
       } else{
         box.innerHTML="X";
