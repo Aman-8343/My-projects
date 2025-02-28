@@ -1,0 +1,349 @@
+@media(max-width:1200px) {
+    html {
+        font-size: 55%;
+    }
+}
+
+@media(max-width:991px) {
+    #menu-icon {
+        display: block;
+
+    }
+
+    #cross {
+        display: block;
+    }
+
+    /* #toggle{
+        display: flex;
+    } */
+
+    .logo {
+        margin-left: -60rem;
+    }
+
+    #menu-icon {
+        position: absolute;
+        margin-left: 48rem;
+        margin-top: -1.5rem;
+    }
+
+    #cross {
+        position: absolute;
+        margin-left: 48rem;
+        margin-top: -1.5rem;
+
+    }
+
+
+    .top-btn {
+        position: absolute;
+        margin-left: 78rem;
+    }
+
+    .navbar {
+        position: absolute;
+        top: 7rem;
+        right: 0;
+        width: 25.5rem;
+        min-height: 80vh;
+        display: flex;
+        flex-direction: column;
+        background: rgb(29, 28, 28);
+        transition: all 0.5s ease;
+        transform: translateY(-5px);
+
+    }
+
+    .show {
+        display: block;
+    }
+
+    .hide {
+        display: none;
+    }
+
+
+    .navbar a {
+        display: block;
+        padding: 17px;
+        font-size: 2.2rem;
+    }
+
+    .navbar .active {
+        right: -100%;
+    }
+
+    .home-content h3 {
+        font-size: 4.5rem;
+        margin-top: 1.5rem;
+    }
+
+    .home-content {
+        order: 0;
+        margin-left: -10rem;
+    }
+
+    .home-img {
+        width: 70vw;
+        margin-top: 4rem;
+    }
+
+    header {
+        padding: 2rem 3%;
+    }
+
+    section {
+        padding: 10rem 3%;
+    }
+
+    .services {
+        padding: 7rem;
+    }
+
+    .about-content {
+        margin-top: 2rem;
+        text-align: center;
+        font-size: 5rem;
+    }
+    .about{
+        display: block;
+    }
+    .about-img img{
+        height: auto;
+        width: 76vw;
+        margin-left: 10rem;
+       
+    }
+
+    .review .wrapper {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .footer {
+        padding: 4rem 0;
+    }
+
+    .home-img:before {
+        content: 'FITNESS';
+        position: absolute;
+        top: 10%;
+        left: 40%;
+        transform: translateX(-50%);
+        font-size: 20rem;
+        font-weight: 400;
+        line-height: 20rem;
+        color: var(--text-color);
+        opacity: 0.1;
+        z-index: -1;
+
+    }
+}
+
+@media(max-width:786px) {
+    .home {
+        flex-direction: column;
+    }
+
+    .logo {
+        margin-left: -50rem;
+    }
+
+    #menu-icon {
+        position: absolute;
+        margin-left: 34rem;
+    }
+
+    #cross {
+        position: absolute;
+        margin-left: 34rem;
+        margin-top: -1.5rem;
+    }
+
+    .top-btn {
+        position: absolute;
+        margin-left: 58rem;
+    }
+
+
+    .home-content h3 {
+        font-size: 4.5rem;
+        margin-top: 1.5rem;
+    }
+
+    .home-content {
+        order: 2;
+    }
+
+    .home-img {
+        width: 70vh;
+        margin-top: 4rem;
+    }
+
+    .home-img {
+        margin-left: -10rem;
+    }
+
+    .about {
+        flex-direction: column;
+
+    }
+
+    .about-img img {
+        width: 70vw;
+        margin: 10rem;
+
+    }
+
+    .about-content {
+        text-align: center;
+    }
+
+    .about-content h2 {
+        text-align: center;
+    }
+
+    .services h2 {
+        margin-bottom: 3rem;
+    }
+
+    .home-img:before {
+        content: 'FITNESS';
+        position: absolute;
+        top: 10%;
+        left: 50%;
+        transform: translateX(-50%);
+        font-size: 20rem;
+        font-weight: 400;
+        line-height: 20rem;
+        color: var(--text-color);
+        opacity: 0.1;
+        z-index: -1;
+
+    }
+    .grid-plan
+    {
+        text-align: center;
+    }
+}
+
+@media(max-width:617px) {
+    .home-img img {
+        width: 80vw;
+        margin-left: -6rem;
+    }
+
+    .about-img img {
+        width: 70vw;
+        margin-top: 4rem;
+        margin-left: 5rem;
+    }
+
+    .logo {
+        margin-left: -35rem;
+    }
+
+    #menu-icon {
+        position: absolute;
+        margin-left: 17rem;
+    }
+
+    #cross {
+        position: absolute;
+        margin-left: 17rem;
+        margin-top: -1.5rem;
+    }
+
+    .top-btn {
+        position: absolute;
+        margin-left: 42rem;
+    }
+
+    .home-content {
+        margin-left: 10rem;
+    }
+
+    .home-img:before {
+        content: 'FITNESS';
+        position: absolute;
+        top: 10%;
+        left: 50%;
+        transform: translateX(-50%);
+        font-size: 15rem;
+        font-weight: 400;
+        line-height: 20rem;
+        color: var(--text-color);
+        opacity: 0.1;
+        z-index: -1;
+
+    }
+    .grid-plan
+    {
+        text-align: center;
+    }
+}
+
+@media(max-width:450px) {
+    html {
+        font-size: 50%;
+    }
+
+    .logo {
+        margin-left: -25rem;
+    }
+
+    #menu-icon {
+        position: absolute;
+        margin-left: 6rem;
+    }
+
+    #cross {
+        position: absolute;
+        margin-left: 6rem;
+        margin-top: -1.5rem;
+    }
+
+    .top-btn {
+        position: absolute;
+        margin-left: 30rem;
+    }
+
+    .home-img img {
+        width: 110vw;
+        height:45rem;
+        margin-left: 6rem;
+    }
+
+    .home-content h3 {
+        font-size: 2.5rem;
+        margin-top: 1.5rem;
+    }
+    .home-content h1{
+       width: 45rem;
+    }
+
+    .home-content p {
+        font-size: 2rem;
+        max-width: 100vw;
+    }
+
+    .home-content {
+        margin-left: 10rem;
+    }
+
+    .home-img:before {
+        content: 'BOOKS';
+        position: absolute;
+        top: 10%;
+        left: 50%;
+        transform: translateX(-50%);
+        font-size: 10rem;
+        font-weight: 400;
+        line-height: 20rem;
+        color: var(--text-color);
+        opacity: 0.1;
+        z-index: -1;
+
+    }
+
+}
